@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+.sect-one{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, black, green, black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 12px;
+}
+.hOne span{
+  color: orangered;
+}
+#textarea{
+  width: 30em;
+  height: 250px;
+  font-size: 16px;
+  border: 1px solid white;
+  outline: none;
+  padding: 20px;
+  border-radius: 20px;
+  resize: none;
+  background-color: transparent;
+  color: white;
+  text-transform: capitalize;
+}
+#textarea::placeholder{
+  font-size: 18px;
+  color: white;
+}
+.both{
+  width: 30em;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#button{
+  background-color: orangered;
+  color: white;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+button img{
+  width: 15px;
+}
+#selecT{
+  flex: 1;
+  color: white;
+  background-color: green;
+  border: 1px solid white;
+  height: 40px;
+  padding: 0 30px;
+  outline: none;
+  border-radius: 20px;
+  appearance: none;
+  background-image: url(./img/dropdown.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: calc(100% - 10px);
+  background-position-y: 15px;
+}
+
+
+@media screen and (max-width:468px) {
+  .sect-one{
+    padding: 10px;
+  }
+}
