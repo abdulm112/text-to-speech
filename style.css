@@ -36,7 +36,7 @@
   color: white;
 }
 .both{
-  width: 30em;
+  
   display: flex;
   align-items: center;
   gap: 20px;
@@ -59,6 +59,7 @@ button img{
 }
 #selecT{
   flex: 1;
+  width: 25em;
   color: white;
   background-color: green;
   border: 1px solid white;
@@ -78,5 +79,24 @@ button img{
 @media screen and (max-width:468px) {
   .sect-one{
     padding: 10px;
+    overflow: hidden;
+  }
+  #textarea{
+    width: 18em;
+    font-size: 20px;
+  }
+  #selecT{
+    width: 22em;
+    font-size: 12px;
+    padding: 0px 22px;
+  }
+  #button{
+    padding: 10px;
+  }
+  .both{
+    gap: 10px;
+  }
+  .hOne{
+    font-size: 27px;
   }
 }
